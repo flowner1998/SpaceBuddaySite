@@ -1,7 +1,7 @@
 * { padding: 0; margin: 0; }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Helvetica, sans-serif;
     font-size: 13px;
 }
 #wrapper {
@@ -10,21 +10,33 @@ body {
 }
 #header {
     text-align: center;
-    width: 900px;
-    color: #333;
-    padding: 10px;
-    border: 1px solid #ccc;
-    height: 100px;
-    margin: 10px 0px 0px 0px;
-    background-color:#F3F2ED;
+    width: 100%;
+    color: #ffffff;
+    height: 300px;
     display: flex;
+    background-image: url("images/mars.jpg");
+    background-size: cover;
+    border-bottom: solid 5px #cc272e;
+    margin: 60px auto auto auto;
+    font-size: 2em;
+}
+
+#header img{
+    width: auto;
+    height: auto;
+}
+#headerContent{
+    margin: 60px auto auto auto;
+    display: flex;
+    font-size: 2em;
 }
 #content {
     width: 900px;
     color: #333;
     border: 1px solid #ccc;
-    background:#CCC8B3;
-    margin: 0px 0px 10px 0px;
+    background:#FFF;
+    opacity: 0.8;
+    margin: 0 0 10px 0;
     padding: 10px;
-    height: 350px;
+    height: auto;
 }
