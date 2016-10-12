@@ -4,32 +4,25 @@ body {
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 13px;
 }
-#wrapper {
-    margin: 0 auto;
-    width: 922px;
+
+#nav {
+    height: 100px;
 }
-#header {
-    text-align: center;
+
+header {
     width: 100%;
     color: #ffffff;
-    height: 300px;
+    height: 370px;
     display: flex;
     background-image: url("images/mars.jpg");
     background-size: cover;
-    border-bottom: solid 5px #cc272e;
+}
+
+header h1{
     margin: 60px auto auto auto;
     font-size: 2em;
 }
 
-#header img{
-    width: auto;
-    height: auto;
-}
-#headerContent{
-    margin: 60px auto auto auto;
-    display: flex;
-    font-size: 2em;
-}
 #content {
     width: 900px;
     color: #333;
