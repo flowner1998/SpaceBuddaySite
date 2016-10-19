@@ -17,9 +17,21 @@ $(document).ready(function(){
     $(".navButton").mouseup(function(){
         $(this).css("border-color", "#ffffff");
     });
+
+    /*  Scroll functions    */
+    $("#toTop").click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1200);
+    });
     $("#navLink1").click(function() {
         $('html, body').animate({
-            scrollTop: $("#content1").offset().top
+            scrollTop: $("#content1").offset().top - 85
+        }, 1200);
+    });
+    $("#navLink2").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#content2").offset().top - 85
         }, 1200);
     });
 });
