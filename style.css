@@ -44,8 +44,8 @@ header {
     color: #ffffff;
     height: 200px;
     display: flex;
-    background-image: url("images/mars.jpg");
-    background-size: cover;
+    background: black url("images/mars.jpg") center/1000px 250px no-repeat;
+
 }
 
 header h1{
