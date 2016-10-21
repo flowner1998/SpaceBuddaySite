@@ -36,8 +36,8 @@ body {
 }
 
 #centerNav{
-    width: 70%;
-    left: 15%;
+    width: 65%;
+    margin: 0 auto;
 }
 header {
     width: 100%;
