@@ -32,9 +32,9 @@ $(document).ready(function(){
 
     //Hover over navigation button
     $(".navButton").hover(function(){
-        $(this).css("background-color", "#8C8C8C");
+        $(this).css("background-color", "lightgrey");
     },function(){
-        $(this).css("background-color", "#ffffff");
+        $(this).css("background-color", "white");
     });
 
     // Click on navigation button
