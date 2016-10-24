@@ -72,11 +72,15 @@ header img{
     display: inline-block;
 }
 
+#content-wrapper{
+    background: black;
+}
+
 #content {
     width: 900px;
     color: #333;
     border: 1px solid #CCCCCC;
-    background: #FFFFFF;
+    background: black;
     opacity: 0.8;
     margin: 0 0 10px 0;
     padding: 10px;
@@ -86,7 +90,7 @@ header img{
 #intro{
     background: black;
     color: red;
-    padding: 20px;
+    padding: 40px;
 }
 
 #intro h2{
@@ -99,9 +103,33 @@ header img{
     margin: auto;
 }
 
-#content2{
-    background: red;
+#pauze1{
+    height: 500px;
+    width: 100%;
+    background: black url("images/lonely-mars.jpg") center/1500px 1000px no-repeat;
 }
+
+#functie{
+    background: black;
+    color: red;
+    padding: 40px;
+    width: 500px;
+    margin: auto;
+}
+
+#functie h2{
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+}
+
+#functie p{
+    width: 350px;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+}
+
 footer{
     height: 500px;
     background-color: black;
