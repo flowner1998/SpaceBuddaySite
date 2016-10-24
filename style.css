@@ -92,14 +92,13 @@ header img{
 }
 
 #content-wrapper{
-    background: black;
+    background: black url("images/star_background-blurred.jpg") center/1920px 1080px repeat;
 }
 
 #content {
     width: 900px;
-    color: #333;
+    color: #333333;
     border: 1px solid #CCCCCC;
-    background: black;
     opacity: 0.8;
     margin: 0 0 10px 0;
     padding: 10px;
@@ -107,15 +106,13 @@ header img{
 }
 
 #intro{
-    background: black;
-    color: #f56961;
+    color: red;
     padding: 40px;
 }
 
 #intro h2{
     text-align: center;
     padding-bottom: 20px;
-    color: #a31e26;
 }
 
 #intro p{
@@ -130,8 +127,7 @@ header img{
 }
 
 #functie{
-    background: black;
-    color: #f56961;
+    color: red;
     padding: 40px;
     width: 500px;
     margin: auto;
@@ -141,13 +137,16 @@ header img{
     text-align: center;
     width: 150px;
     display: inline-block;
+    top: 0;
 }
 
 #functie p{
     width: 350px;
     margin: auto;
     display: inline-block;
-    position: absolute;
+    position: relative;
+    right: 0;
+    top: 0;
 }
 
 footer{
