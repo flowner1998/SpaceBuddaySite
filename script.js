@@ -32,7 +32,7 @@ $(document).ready(function(){
 
     //Hover over navigation button
     $(".navButton").hover(function(){
-        $(this).css("background-color", "lightgrey");
+        $(this).effect("highlight",{color: 'lightgrey'},500);
     },function(){
         $(this).css("background-color", "white");
     });
@@ -57,7 +57,7 @@ $(document).ready(function(){
 
     $("#navLink2").click(function() {
         $('html, body').animate({
-            scrollTop: $("functie").offset().top - 40
+            scrollTop: $("#functie").offset().top - 40
         }, 1200);
         setLinks(2);
         setLinkColors();
