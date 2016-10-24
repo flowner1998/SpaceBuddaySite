@@ -32,7 +32,7 @@ $(document).ready(function(){
 
     //Hover over navigation button
     $(".navButton").hover(function(){
-        $(this).css("background-color", "lightgrey");
+        $(this).effect("highlight",{color: 'lightgrey'},500);
     },function(){
         $(this).css("background-color", "white");
     });
