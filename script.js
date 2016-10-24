@@ -7,15 +7,15 @@ $(document).ready(function(){
     $(".navButton").hover(function(){
         $(this).css("background-color", "#8C8C8C");
     },function(){
-        $(this).css("background-color", "#1c6ca6");
+        $(this).css("background-color", "#ffffff");
     });
 
     // Click on navigation button
     $(".navButton").mousedown(function(){
-        $(this).css("border-color", "#ff3333");
+        $(this).css("border-color", "#cccccc");
     });
     $(".navButton").mouseup(function(){
-        $(this).css("border-color", "#ffffff");
+        $(this).css("border-color", "#cccccc");
     });
 
     /*  Scroll functions    */
