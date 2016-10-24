@@ -91,18 +91,8 @@ header img{
     display: inline-block;
 }
 
-#content-wrapper{
+.content {
     background: black url("images/star_background-blurred.jpg") center/1920px 1080px repeat;
-}
-
-#content {
-    width: 900px;
-    color: #333333;
-    border: 1px solid #CCCCCC;
-    opacity: 0.8;
-    margin: 0 0 10px 0;
-    padding: 10px;
-    height: auto;
 }
 
 #intro{
