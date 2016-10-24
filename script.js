@@ -11,13 +11,6 @@ $(document).ready(function(){
     });
 
     // Click on navigation button
-    $(".navButton").mousedown(function(){
-        $(this).css("border-color", "#cccccc");
-    });
-    $(".navButton").mouseup(function(){
-        $(this).css("border-color", "#cccccc");
-    });
-
     /*  Scroll functions    */
     $("#toTop").click(function() {
         $('html, body').animate({
