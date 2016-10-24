@@ -16,6 +16,10 @@ nav {
     z-index: 99;
 }
 
+nav img{
+    height: 30px;
+}
+
 .navButton{
     font-size: larger;
     cursor: pointer;
@@ -30,10 +34,13 @@ nav {
 
 .navButton:first-child{
     border-left: none;
+    padding: 5px;
+    width: 30px;
+    height: 30px
 }
 
 #centerNav{
-    width: 65%;
+    width: 654px;
     margin: -2px auto;
 }
 header {
