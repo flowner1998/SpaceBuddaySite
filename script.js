@@ -39,7 +39,8 @@ $(document).ready(function(){
 
     // Click on navigation button
     /*  Scroll functions    */
-    $("#toTop").click(function() {
+    $("#toTop").click(function(e) {
+        e.preventDefault();
         $('html, body').animate({
             scrollTop: 0
         }, 1200);
@@ -47,7 +48,8 @@ $(document).ready(function(){
         setLinkColors();
     });
 
-    $("#navLink1").click(function() {
+    $("#navLink1").click(function(e) {
+        e.preventDefault();
         $('html, body').animate({
             scrollTop: $("#intro").offset().top - 40
         }, 1200);
@@ -55,9 +57,10 @@ $(document).ready(function(){
         setLinkColors();
     });
 
-    $("#navLink2").click(function() {
+    $("#navLink2").click(function(e) {
+        e.preventDefault();
         $('html, body').animate({
-            scrollTop: $("functie").offset().top - 40
+            scrollTop: $("#functie").offset().top - 40
         }, 1200);
         setLinks(2);
         setLinkColors();

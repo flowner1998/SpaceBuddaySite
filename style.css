@@ -16,20 +16,31 @@ nav {
     z-index: 99;
 }
 
+nav ul{
+    list-style: none;
+    overflow: auto;
+}
+
 nav img{
     height: 30px;
 }
 
 .navButton{
-    font-size: larger;
     cursor: pointer;
     text-align: center;
-    display: inline-block;
-    height: 20px;
+    height: 40px;
     width: 100px;
     background-color: #FFFFFF;
     border-left: solid 2px #333333;
-    padding: 10px;
+    float: left;
+}
+
+.navButton a {
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    padding-top: 10px;
+    width: 100px;
 }
 
 .navButton:first-child{
@@ -39,9 +50,15 @@ nav img{
     height: 30px
 }
 
+.navButton:first-child a{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
 #centerNav{
     width: 654px;
-    margin: -2px auto;
+    margin: 0 auto;
 }
 header {
     margin-top: 40px;
