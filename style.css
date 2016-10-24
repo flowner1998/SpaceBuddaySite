@@ -41,6 +41,8 @@ nav img{
     height: 30px;
     padding-top: 10px;
     width: 100px;
+    color: inherit;
+    font-weight: bold;
 }
 
 .navButton:first-child{

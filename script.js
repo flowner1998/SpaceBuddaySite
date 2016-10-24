@@ -63,5 +63,32 @@ $(document).ready(function(){
         setLinks(2);
         setLinkColors();
     });
+
+    $("#navLink3").click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#functie").offset().top - 40
+        }, 1200);
+        setLinks(3);
+        setLinkColors();
+    });
+
+    $("#navLink4").click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#functie").offset().top - 40
+        }, 1200);
+        setLinks(4);
+        setLinkColors();
+    });
+
+    $("#navLink5").click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#functie").offset().top - 40
+        }, 1200);
+        setLinks(5);
+        setLinkColors();
+    });
 });
 
