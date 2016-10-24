@@ -108,13 +108,14 @@ header img{
 
 #intro{
     background: black;
-    color: red;
+    color: #f56961;
     padding: 40px;
 }
 
 #intro h2{
     text-align: center;
     padding-bottom: 20px;
+    color: #a31e26;
 }
 
 #intro p{
@@ -130,7 +131,7 @@ header img{
 
 #functie{
     background: black;
-    color: red;
+    color: #f56961;
     padding: 40px;
     width: 500px;
     margin: auto;
