@@ -47,45 +47,60 @@ header {
     margin-top: 40px;
     width: 100%;
     color: #ffffff;
-    height: 200px;
+    height: 375px;
     display: flex;
-    background: black url("images/mars.jpg") center/1000px 250px no-repeat;
+    background: black url("images/mars.jpg") center/1500px 375px no-repeat;
 
 }
 
+#header-text{
+    margin: 50px auto auto auto;
+    width: 240px;
+}
+
 header h1{
-    margin: 60px auto auto auto;
     font-size: 2em;
+    display: inline-block;
+    margin-top: 9px;
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-left: 5px;
+    display: inline-block;
 }
 
 #content {
     width: 900px;
     color: #333;
-    border: 1px solid #ccc;
-    background:#FFF;
+    border: 1px solid #CCCCCC;
+    background: #FFFFFF;
     opacity: 0.8;
     margin: 0 0 10px 0;
     padding: 10px;
     height: auto;
 }
 
-.content{
-    text-align: center;
+#intro{
+    background: black;
+    color: red;
+    padding: 20px;
 }
-#content1{
-    background: rgb(63,89,109); /* Old browsers */
-    background: -moz-linear-gradient(0deg,  rgba(63,89,109,1) 1%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(0deg,  rgba(63,89,109,1) 1%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(0deg,  rgba(63,89,109,1) 1%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f596d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
+#intro h2{
+    text-align: center;
+    padding-bottom: 20px;
 }
+
+#intro p{
+    width: 500px;
+    margin: auto;
+}
+
 #content2{
-    background: rgb(63,89,109); /* Old browsers */
-    background: -moz-linear-gradient(0deg,  rgba(63,89,109,1) 1%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(0deg,  rgba(63,89,109,1) 1%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(0deg,  rgba(63,89,109,1) 1%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f596d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: red;
 }
 footer{
     height: 500px;
