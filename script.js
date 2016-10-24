@@ -31,10 +31,8 @@ function setLinkColors()
 $(document).ready(function(){
 
     //Hover over navigation button
-    $(".navButton").hover(function(){
-        $(this).effect("highlight",{color: 'lightgrey'},500);
-    },function(){
-        $(this).css("background-color", "white");
+    $(".navButton").mouseenter(function(){
+        $(this).effect("highlight",{color: 'OrangeRed'},400);
     });
 
     // Click on navigation button
