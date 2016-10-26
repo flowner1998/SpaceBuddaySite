@@ -76,7 +76,7 @@ $(document).ready(function(){
     $("#navLink4").click(function(e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: $("#functie").offset().top - 40
+            scrollTop: $("#media").offset().top - 40
         }, 1200);
         setLinks(4);
         setLinkColors();

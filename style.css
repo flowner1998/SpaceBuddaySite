@@ -108,10 +108,10 @@ header img{
     padding-top: 100px;
     padding-bottom: 100px;
     opacity: 1.0;
+    font-size: 1.3em;
 }
 
 #intro{
-    color: #ff3025;
     padding: 40px;
 }
 
@@ -121,7 +121,7 @@ header img{
 }
 
 #intro p{
-    width: 500px;
+    width: 600px;
     margin: auto;
 }
 
@@ -133,7 +133,6 @@ header img{
 
 #functie{
     overflow: auto;
-    color: #ff3025;
     padding: 40px;
     margin: auto;
 }
@@ -145,9 +144,9 @@ header img{
 
 #functie p{
     float: right;
-    width: 450px;
+    width: 500px;
     margin: auto;
-    padding-right: 100px;
+    padding-right: 50px;
     padding-bottom: 100px;
 }
 
@@ -158,13 +157,38 @@ header img{
 }
 
 #gebruik{
-    text-align: center;
-    overflow: auto;
-    color: #ff3025;
     padding: 40px;
+}
+
+#gebruik h2{
+    text-align: center;
+}
+
+#gebruik p{
+    width: 600px;
     margin: auto;
 }
+
+#gebruik ul{
+    text-align: center;
+    list-style: none;
+}
+
+#pauze3{
+    height: 700px;
+    width: 100%;
+    background: black url("images/mars-colony.jpg") center/1500px 770px no-repeat;
+}
+
+#media{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+
 footer{
-    height: 500px;
+    height: 200px;
     background-color: black;
 }
