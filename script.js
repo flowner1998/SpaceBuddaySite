@@ -85,7 +85,7 @@ $(document).ready(function(){
     $("#navLink5").click(function(e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: $("#functie").offset().top - 40
+            scrollTop: $("#contact").offset().top - 40
         }, 1200);
         setLinks(5);
         setLinkColors();

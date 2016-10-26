@@ -187,8 +187,32 @@ header img{
     text-align: center;
 }
 
+#pauze4{
+    height: 700px;
+    width: 100%;
+    background: black url("images/marsPlanet.jpg") center/1500px 770px no-repeat;
+}
+
+#contact{
+    padding: 100px;
+}
+#contact #tabs{
+    border: solid #ff3025 5px;
+    border-radius: 9px;
+}
+#contact #fragment-3 a{
+    color: #ff3025;
+}
+
 
 footer{
     height: 200px;
     background-color: black;
+    position: relative;
+}
+footer p{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: white;
 }

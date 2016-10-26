@@ -7,7 +7,8 @@
     <script src="jQuery/jquery-3.1.1.min.js"></script>
     <script src="script.js"></script>
     <script src="jQuery/jquery-ui.min.js"></script>
-    <div id="fb-root"></div>
+
+    <!-- Facebook Implementation -->
     <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
@@ -15,6 +16,7 @@
         js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.8";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+
     <meta charset="UTF-8">
     <title>Space Buddy</title>
 </head>
@@ -29,7 +31,7 @@
         <li class="navButton" id="navLink2"><a href="#functie">Mijn kind</a></li>
         <li class="navButton" id="navLink3"><a href="#gebruik">Gebruik</a></li>
         <li class="navButton" id="navLink4"><a href="#media">Media</a></li>
-        <li class="navButton" id="navLink5"><a href="#5">LINK 5</a></li>
+        <li class="navButton" id="navLink5"><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
@@ -91,7 +93,6 @@
                     <li>-Hulp inschakelen van ouders door middel van een knopje</li>
                     <li>-Een LED-scherm die willekeurige feitjes toont over de ruimte</li>
                 </ul>
-            </p>
         </div>
     </div>
 
@@ -101,13 +102,65 @@
         <h2>Volg ons op Instagram en like ons op Facebook!</h2>
         <p>Blijf op de hoogte van de laatste updates van de space Buddy!</p>
         <br>
-        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: auto; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.1944444444% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BMBTdYJlDs1/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Space Buddy Proto PV - 1 #PV #Mars #Proto #Promo</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Een video die is geplaatst door Space Buddy (@spacebuddypromo) op <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-10-26T09:02:15+00:00">26 Okt 2016 om 2:02 PDT</time></p></div></blockquote>
+        <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0 auto; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.1944444444% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BMBTdYJlDs1/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Een video die is geplaatst door Space Buddy (@spacebuddypromo)</a> op <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-10-26T09:02:15+00:00">26 Okt 2016 om 2:02 PDT</time></p></div></blockquote>
+        <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+        <br>
+        <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0 auto; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.1944444444% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BMBUa8tlnSs/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Een video die is geplaatst door Space Buddy (@spacebuddypromo)</a> op <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-10-26T09:10:39+00:00">26 Okt 2016 om 2:10 PDT</time></p></div></blockquote>
+        <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+        <br>
+        <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0 auto; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:28.1944444444% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BMBge8Ol8kU/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Een video die is geplaatst door Space Buddy (@spacebuddypromo)</a> op <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-10-26T10:56:04+00:00">26 Okt 2016 om 3:56 PDT</time></p></div></blockquote>
         <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
         <br><br>
         <div class="fb-page" data-href="https://www.facebook.com/Space-Proto-Buddy-1652409041716270/" data-tabs="timeline" data-width="500" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Space-Proto-Buddy-1652409041716270/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Space-Proto-Buddy-1652409041716270/">Space &quot;Proto&quot; Buddy</a></blockquote></div>
     </div>
+
+    <div id="pauze4"></div>
+
+    <div class="content" id="contact">
+        <div id="tabs">
+            <ul>
+                <li><a href="#fragment-1"><span>Email</span></a></li>
+                <li><a href="#fragment-2"><span>Telefoon</span></a></li>
+                <li><a href="#fragment-3"><span>Medewerkers</span></a></li>
+            </ul>
+            <div id="fragment-1">
+                <a href="mailto:contact@spacebuddy.com?Subject=Space%20Buddy%20vraag" target="_top">contact@spacebuddy.com</a>
+            </div>
+            <div id="fragment-2">
+                <p>Telefoonnummer: 010-7945824</p>
+            </div>
+            <div id="fragment-3">
+                <h4>Arduino code & hardware</h4>
+                <ul>
+                    <li><a target="_blank" href="http://stud.hosted.hr.nl/0914618">Milan Mazurel</a></li>
+                    <li><a target="_blank" href="https://stud.hosted.hr.nl/studentnummer">Rick Pijbes</a></li>
+                    <li><a target="_blank" href="https://stud.hosted.hr.nl/studentnummer">Dagmar deRaadt</a></li>
+                </ul>
+                <h4>Ontwerp</h4>
+                <ul>
+                    <li><a target="_blank" href="https://stud.hosted.hr.nl/studentnummer">Guido van de Riet</a></li>
+                    <li><a target="_blank" href="https://stud.hosted.hr.nl/studentnummer">Jersson Pires</a></li>
+                </ul>
+                <h4>Website Design</h4>
+                <ul>
+                    <li><a target="_blank" href="https://stud.hosted.hr.nl/0928136">Floris van Maldegem</a></li>
+                    <li><a target="_blank" href="http://stud.hosted.hr.nl/0914618">Teun van Lingen</a></li>
+                </ul>
+                <h4>Social media</h4>
+                <ul>
+                    <li><a target="_blank" href="http://stud.hosted.hr.nl/0914618">Wishay Manka</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            $( "#tabs" ).tabs();
+        </script>
+    </div>
 </div>
 
-<footer></footer>
+<footer>
+    <p>Created by Floris van Maldegem & Teun van Lingen<br>
+    A SpaceBuddy&reg pruduction</p>
+</footer>
 </body>
 </html>
