@@ -95,18 +95,23 @@ header img{
     background: black url("images/star_background-blurred.jpg") center/1920px 1080px repeat;
 }
 
-#content {
-    width: 900px;
-    color: #333333;
-    border: 1px solid #CCCCCC;
-    opacity: 0.8;
-    margin: 0 0 10px 0;
-    padding: 10px;
-    height: auto;
+.content {
+    width: 800px;
+    margin: auto;
+    background-color: aliceblue;
+    opacity: 0.7;
+    border-left: solid #383838 2px;
+    border-right: solid #383838 2px;
+}
+
+.text{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    opacity: 1.0;
 }
 
 #intro{
-    color: red;
+    color: #ff3025;
     padding: 40px;
 }
 
@@ -121,34 +126,44 @@ header img{
 }
 
 #pauze1{
-    height: 500px;
+    height: 700px;
     width: 100%;
     background: black url("images/lonely-mars.jpg") center/1500px 1000px no-repeat;
 }
 
 #functie{
-    color: red;
+    overflow: auto;
+    color: #ff3025;
     padding: 40px;
-    width: 500px;
     margin: auto;
 }
 
 #functie h2{
-    text-align: center;
-    width: 150px;
-    display: inline-block;
-    top: 0;
+    float: left;
+    width: 100px;
 }
 
 #functie p{
-    width: 350px;
+    float: right;
+    width: 450px;
     margin: auto;
-    display: inline-block;
-    position: relative;
-    right: 0;
-    top: 0;
+    padding-right: 100px;
+    padding-bottom: 100px;
 }
 
+#pauze2{
+    height: 700px;
+    width: 100%;
+    background: black url("images/ariane64.jpg") center/1500px 770px no-repeat;
+}
+
+#gebruik{
+    text-align: center;
+    overflow: auto;
+    color: #ff3025;
+    padding: 40px;
+    margin: auto;
+}
 footer{
     height: 500px;
     background-color: black;
